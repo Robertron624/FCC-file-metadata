@@ -11,6 +11,17 @@ app.get('/', function (req, res) {
   res.sendFile(process.cwd() + '/views/index.html');
 });
 
+/*
+Response object: 
+
+{
+  "name": "174857.png",
+  "type": "image/png",
+  "size": 5823
+}
+
+*/
+
 
 
 
